@@ -14,11 +14,9 @@ export const authVerify =
         return res
           .status(httpStatus.UNAUTHORIZED)
           .json("You Are Not Authorized");
-        //throw new ApiError(httpStatus.UNAUTHORIZED, 'You Are Not Authorized')
       }
 
       //2 verify token
-      // verify token
       let vefifiedUser = null;
       vefifiedUser = jwt.verify(
         token,
