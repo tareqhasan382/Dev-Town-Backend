@@ -10,7 +10,7 @@ import { ShopRoute } from "./app/modules/shop/shop.route";
 const corsOptions = {
   origin: [
     "http://localhost:5173",
-    "https://heliverse-frontend-jade.vercel.app",
+    "https://dev-town-front-end-53mt.vercel.app",
   ],
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,

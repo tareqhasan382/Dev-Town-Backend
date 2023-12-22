@@ -45,7 +45,7 @@ const userProduct = catchAsync(async (req: Request, res: Response) => {
 const singleProduct = catchAsync(async (req: Request, res: Response) => {
   try {
     const { id } = req.params;
-    console.log("id:", id);
+    //console.log("id:", id);
     const result = await ShopModel.findById(id);
     return res.json({
       status: "true",
