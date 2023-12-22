@@ -11,6 +11,7 @@ const corsOptions = {
   origin: [
     "http://localhost:5173",
     "https://dev-town-front-end-53mt.vercel.app",
+    "https://dev-town-front-end.vercel.app",
   ],
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
